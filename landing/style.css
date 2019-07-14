@@ -1,0 +1,71 @@
+/* Write some CSS below */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;	
+}
+
+h1, h3, h4 { 
+	font-weight: lighter;
+	color: #515751;
+	text-align: center;
+	margin: 30px 10px;
+	padding: 30px 10px;
+ }
+
+ p { 
+ 	font-weight: lighter;
+ 	color: #36453B;
+  }
+
+ h1 { font-weight: bold;
+   }
+
+ a {
+ 	text-decoration: none;
+ 	color: #F5F9E9;
+ 	font-weight: bold;
+ }
+
+ a:hover {
+ 	color: #F5F9E9;
+ }
+
+ .btn-blue {
+ 	padding: 20px 30px;
+ 	margin: 40px 20px;
+ 	background-color: #515751;
+ 	transition: 0.3s;
+ }
+
+ img {
+ 	width: 222px;
+ 	height: 150px;
+ 	object-fit: cover;
+ }
+
+ #banner {
+ 	background-image: url('images/landingpage2.jpg');
+ 	background-size: cover;
+ 	background-position: center;
+ 	padding: 150px 0;
+ 	text-align: center;
+ }
+
+ .card {
+ 	background-color: white;
+ 	box-shadow: 0 0 16px #F5F9E9;
+ 	text-align: center;
+ 	padding: 24px;
+ 	margin: 8px;
+ }
+
+ .cards {
+ 	display: flex;
+ 	justify-content: space-around;
+ }	
+
+
+ #footer {
+ 	text-align: center;
+ }
